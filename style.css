@@ -1,3 +1,26 @@
 body {
-    font family: arial;
+    font-family: arial;
+    background-color: rgb(125, 231, 208);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 50px;
+    background-color: rgb(229, 130, 233)
+}
+
+.profile-picture {
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+}
+
+.links {
+    width: 80px;
+    height: 80px;
 }
