@@ -21,6 +21,20 @@ header {
 }
 
 .links {
-    width: 80px;
+    width: 200px;
     height: 80px;
+    font-size: 20px;
+}
+
+.links a {
+    color: rgb(125, 231, 208);
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgb(28, 73, 136)
+}
+
+.name {
+    color: rgb(28, 73, 136)
 }
