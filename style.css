@@ -69,6 +69,10 @@ header {
 
 }
 
+.container-middle {
+    align-self: center;
+}
+
 .item {
     width: 300px;
     height: 300px;
@@ -89,7 +93,7 @@ header {
 .item-middle {
     width: 300px;
     height: 800px;
-    background-color: rgb(226, 133, 179);
+    background-color: rgb(133, 178, 226);
     font-size: 40px;
     color: rgb(0, 0, 0);
     font-family: sans-serif;
@@ -99,11 +103,17 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 50px;
 }
 
 .item-1 {
     border-radius: 250px 100px 175px 50px;
     background-color: #FFC8DC;
+    text-decoration: none;
+}
+
+.item-1:hover {
+    text-decoration: underline;
 }
 
 .item-2 {
@@ -112,26 +122,32 @@ header {
 }
 
 .item-3 {
+    border-radius: 50px 175px 50px 175px;
     background-color: #E55E99;
 }
 
-.ietm-4 {
+.item-4 {
+    border-radius: 50px 175px 50px 175px;
     background-color: #EBB9DF;
 }
 
 .item-5 {
+    border-radius: 50px 175px 50px 175px;
     background-color: #CDB4DA;
 }
 
 .item-6 {
+    border-radius: 50px 175px 50px 175px;
     background-color: #E099DB;
 }
 
 .item-7 {
+    border-radius: 50px 175px 50px 175px;
     background-color: #F4B6CF;
 }
 
 .item-8 {
+    border-radius: 50px 175px 50px 175px;
     background-color: #C5BDE6;
 }
 
@@ -156,4 +172,34 @@ header {
 
 .links a:hover {
     text-decoration: underline;
+}
+
+.reflection-title {
+    background-color: #E55E99;
+    color: black;
+    width: 160px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reflection-paragraph {
+    background-color: aqua;
+    color: black;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reflection-gallery {
+    background-color: #FFAFCC;
+    color: black;
+    width: 160px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
