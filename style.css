@@ -33,13 +33,12 @@ header {
 }
 
 .links a {
-    color: rgb(53, 140, 128);
+    color: (28, 73, 136);
     text-decoration: none;
 }
 
 .links a:hover {
     text-decoration: underline;
-    color: rgb(28, 73, 136)
 }
 
 .name {
