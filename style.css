@@ -33,7 +33,7 @@ header {
 }
 
 .links a {
-    color: (28, 73, 136);
+    color: rgb(28, 73, 136);
     text-decoration: none;
 }
 
