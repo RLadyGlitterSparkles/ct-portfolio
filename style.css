@@ -31,7 +31,7 @@ header {
     font-size: 20px;
     padding-right: 10px;
 }
-    
+
 .links a {
     color: rgb(28, 73, 136);
     text-decoration: none;
@@ -128,6 +128,11 @@ header {
 .item-2 {
     border-radius: 50px 175px 50px 175px;
     background-color: #FFAFCC;
+    text-decoration: none;
+}
+
+.item-2:hover {
+    text-decoration: underline;
 }
 
 .item-3 {
@@ -231,4 +236,9 @@ header {
 .background {
     background-image: url(aesthetic-background-2.png);
     background-size: cover;
+}
+
+.Dashboard-iframe {
+    width: 100%;
+    height: 600px;
 }
