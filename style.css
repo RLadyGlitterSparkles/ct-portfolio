@@ -138,6 +138,11 @@ header {
 .item-3 {
     border-radius: 50px 175px 50px 175px;
     background-color: #E55E99;
+    text-decoration: none;
+}
+
+.item-3:hover {
+    text-decoration: underline;
 }
 
 .item-4 {
